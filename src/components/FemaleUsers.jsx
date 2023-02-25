@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import "./Users.css";
 
 const FemaleUsers = ({ femaleUsers }) => {
-  const defaultLink = "./avatar.jpg";
+  const defaultLink = "./female.jpg";
   return (
     <div className="users-container">
       <h3 className="title">Female Users</h3>
