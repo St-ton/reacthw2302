@@ -1,0 +1,48 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.footer-wrapper a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-wrapper {
+  width: 100%;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.7s linear;
+  color: #2c3e50;
+  /* text-shadow: white 1px 0 1px; */
+}
+
+.footer-inner {
+  width: 250px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  /* выдвигается слева 
+  top: 0;
+   left: -250px;*/
+  /* выдвигается снизу */
+  left: calc(50% - 125px);
+  bottom: -40px;
+  transition: all 0.7s linear;
+}
+
+.footer-wrapper:hover .footer-inner {
+  left: calc(50% - 125px);
+  /* выдвигается снизу */
+  bottom: 0px;
+}
+
+.footer-wrapper:hover {
+  color: transparent;
+}
