@@ -16,7 +16,8 @@ body {
 .App {
   display: flex;
   flex-direction: column;
-  height: 1400px;
+  /* height: 1400px; */
+  height: 100vh;
   background-color: #2980b9;
   padding: 20px 20px;
 }
@@ -25,6 +26,7 @@ body {
 .App h5 {
   color: white;
   text-align: center;
+  padding-bottom: 10px;
 }
 .footer {
   color: white;

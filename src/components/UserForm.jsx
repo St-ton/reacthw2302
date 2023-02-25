@@ -56,9 +56,7 @@ const UserForm = ({ addMaleUser, addFemaleUser }) => {
 
         {/* <label htmlFor="gender">Gender:</label> */}
         <select id="gender" value={gender} onChange={handleGenderChange}>
-          <option value selected>
-            Gender
-          </option>
+          <option value> Gender</option>
           <option value="male">Male</option>
           <option value="female">Female</option>
         </select>

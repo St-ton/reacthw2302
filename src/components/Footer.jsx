@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="footer-wrapper">
         User List M/F | Link GihHub
         <div className="footer-inner">
-          <a href="https://github.com/St-ton/reacthw1602" target="_blank">
+          <a href="https://github.com/St-ton/reacthw2302" target="_blank">
             User List M/F | Link GihHub
           </a>
         </div>

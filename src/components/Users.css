@@ -22,6 +22,7 @@
 .users-card {
   display: flex;
   flex-direction: column;
+  position: relative;
   justify-content: space-between;
   align-items: center;
   font-size: 16px;
@@ -31,10 +32,47 @@
   background-color: #d9d9d9;
   gap: 20px;
   border-radius: 10px;
-  /* margin: 20px;   */
+  transition: all 0.4s linear;
 }
 
-.users_card img {
+.users-card:hover {
+  background-color: white;
+  box-shadow: 0 0 10px white;
+  cursor: pointer;
+}
+
+.users-card:hover img,
+.users-card:hover h4,
+.users-card:hover h6 {
+  display: none;
+}
+
+.gender {
+  /* display: none; */
+  position: absolute;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 28px;
+  font-weight: 900;
+  color: transparent;
+  transition: all 0.4s linear;
+}
+
+.users-card:hover .gender {
+  color: #2c3e50;
+}
+
+/*
+.users-card h6 {
+ color: gray;
+ position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 10px;
+} 
+*/
+
+.users-card img {
   width: 100px;
   height: 120px;
   margin: 0;
@@ -42,14 +80,19 @@
   /* overflow: hidden; */
 }
 
-.users_card h4 {
+.users-card h4 {
   color: #2c3e50;
   text-align: center;
+  margin-bottom: 10px;
 }
 
-.users_card h6 {
-  color: white;
-  text-align: right;
+.users-card h6 {
+  color: gray;
+  /* text-align: right; */
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 10px;
 }
 
 /*.container {

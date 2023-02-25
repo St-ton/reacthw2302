@@ -16,6 +16,7 @@
   outline: none;
   background-color: white;
   margin-right: 20px;
+  opacity: 0.8;
 }
 
 .form-container select {
@@ -30,9 +31,17 @@
   transition: all 0.4s easy;
 }
 
+.form-container input:focus {
+  /* background-color: #d9d9d9; */
+  box-shadow: 0 0 10px white;
+  opacity: 1;
+}
+
 .form-container button:hover {
+  /* background-color: #d9d9d9; */
+  box-shadow: 0 0 10px white;
+  opacity: 1;
   cursor: pointer;
-  box-shadow: 0 0 0 3px white;
 }
 
 .form-container h5 {

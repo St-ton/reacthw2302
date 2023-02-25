@@ -15,7 +15,7 @@ const FemaleUsers = ({ femaleUsers }) => {
             alt={user.name}
           />
           <h4>{user.name}</h4>
-          <h6>Female</h6>
+          <p className="gender">Female</p>
         </div>
       ))}
       {/* </div> */}
